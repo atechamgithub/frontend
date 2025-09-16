@@ -17,6 +17,7 @@ const Login = () => {
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
+      console.log('onSubmitHandler fired — state:', state, { name, email, password });
 
     if (state === 'Sign Up') {
 
